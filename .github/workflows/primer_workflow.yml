@@ -3,7 +3,8 @@ name: Mi primer workflow
 on: [push]
 
 jobs:
-  runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
 
   steps:
     - name: Mostrar mensaje
